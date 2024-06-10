@@ -11,4 +11,5 @@ for file in files:
         print(f'D:\\New folder\\{file} renamed')
         i+=1
         
-#This code will rename your files from 1 to n where n is the number of files in your folder or the type of entered extension.
+#This code will rename your files from 1 to n where n is the number of files 
+# in your folder or the type of entered extension.
