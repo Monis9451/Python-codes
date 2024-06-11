@@ -1,0 +1,12 @@
+import argparse # import argparse
+
+parser = argparse.ArgumentParser() # create a parser
+
+parser.add_argument('-name', type=str) # specify the name argument
+
+args = parser.parse_args() # parse all the arguments
+
+if args.name: # if the user provides a name
+    print("Hello,", args.name + "!")
+else: # if the user does not provide a name
+    print("Hello world!")
